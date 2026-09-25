@@ -1,0 +1,96 @@
+/* Navigation Bar */
+nav {
+  background-color: #333;
+  padding: 10px;
+  margin: 0.1em;
+  font-size: 1.2em;
+  padding: 1em;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style-type: none;
+  margin:  0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 1em;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+body{
+ padding-top: 5em; /* Adjust this value based on your design needs */
+}
+/*Main Content*/
+main { /* Adjust this value based on the height of your navigation bar */
+  padding: 2em 1em;
+  text-align: center;
+}
+/*Home Section*/
+#home {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+      }
+#home p {
+     font-size: 1.2em;
+     color: #666;
+}
+
+/*Portfolio Section*/
+#portfolio {
+  display: flex;
+  flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1em;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 1em;
+    padding: 1em;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      width: 30%;
+      box-sizing: border-box;
+      transition: transform 0.3s ease;
+}
+    #portfolio :is( h1, h2, h3) {
+         font-weight: bold;
+         margin-bottom: 0.5em;
+    }
+    #portfolio p {
+         margin-bottom: 0.5em;
+         color: #666;
+    }
+    #portfolio img {
+       width: 100%;
+       box-shadow:0px 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    #portfolio:hover {
+       transform: scale(1.05);
+    }
+    /*Footer Section*/
+    footer {
+        
+        background-color: #222;
+        color: #fff;
+        text-align: center;
+        padding: 2em;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+    }
+
+    
+
+
+
+
+
+
